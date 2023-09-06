@@ -1,0 +1,103 @@
+
+.subscribe_but {
+    color:white;
+    background-color: rgb(204, 0, 0);
+    border: none;
+   padding: 10px 16px 10px 16px;
+    border-radius: 2px;
+    cursor:pointer;
+    margin-right: 8px;
+    margin-left: 20px;
+    transition: opacity 0.8s;
+    vertical-align: top;
+
+}
+.subscribe_but:hover{
+   opacity: 0.7;
+}
+.subscribe_but:active
+{
+    opacity: 0.5;
+}
+.join_but{
+        background-color: white;
+        border-color: rgb(41, 118,211);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(6, 95, 212);
+        padding: 9px 16px 9px 16px;
+        
+        cursor: pointer;
+        transition: background-color 1s,color 0.15s;
+
+}
+.join_but:hover{
+                   background-color: rgb(41, 118,211);
+                   color:white;
+}
+.join_but:active
+{
+   opacity: 0.7;
+}
+.tweet_but
+{
+       color:white;
+       font-weight: bold;
+       border-radius: 30px;
+      padding: 9px 16px 9px 16px;
+       background-color: rgb(2,158,255);
+       border:none;
+       font-size: 15px;
+       cursor: pointer;
+       margin-left: 8px;
+       transition: box-shadow 0.15s;
+       vertical-align: top;
+
+}
+.tweet_but:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+.Back_but{
+    margin-left: 19px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    transition: background-color 1s, color 0.15s;
+}
+.Back_but:hover{
+    color: rgb(240, 240, 240);
+    background-color: rgb(0,0,0);
+}
+
+
+.One_lnk{
+    margin-left: 15px;
+    color:rgb(11, 72, 152);
+    transition: color 0.2s;
+
+
+}
+.One_lnk:hover{
+    color:rgba(132, 173, 225)
+}
+.Stretch_but{
+    background-color: rgba(19, 204, 19,0.9);
+    color: white;
+    border-width: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    transition: padding-right 0.3s, padding-bottom 0.3s, background-color 0.3s; 
+    
+
+}
+.Stretch_but:hover{
+    padding-right: 25px;
+    padding-bottom: 15px;
+   
+    
+
+}
+
